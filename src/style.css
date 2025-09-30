@@ -19,10 +19,10 @@
 
 body {
     font-family: 'Noto Serif KR', 'Nanum Myungjo', serif;
-    font-size: 22px;
+    font-size: 17px;
     color: black;
     line-height: 1.7;
-    letter-spacing: -1px;
+    letter-spacing: -3px;
 
 
 }
@@ -41,6 +41,8 @@ body {
     border-radius: 15px;
     align-self: flex-end;
     color: white;
+    letter-spacing: -1px;
+
 
 }
 
@@ -52,6 +54,8 @@ body {
     border-radius: 15px;
     align-self: flex-start;
     color: black;
+    letter-spacing: -1px;
+
 
 }
 
@@ -59,6 +63,8 @@ body {
     font-family: san-serif;
     color: gray;
     text-align: center;
+    letter-spacing: -1px;
+
 }
 
 .처음 {
