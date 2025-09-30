@@ -18,15 +18,18 @@
 }
 
 body {
-    font-family: 'Noto Serif KR', 'Nanum Myungjo', serif;
-    font-size: 17px;
+    font-family: serif;
+    font-size: 20px;
     color: black;
     line-height: 1.7;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
 
 
 }
 
+.왜 {
+    font-size: 30px;
+}
 
 .messageContainer {
     display: flex;
@@ -69,5 +72,8 @@ body {
 
 .처음 {
     background-color: #007aff;
-    width: 100px;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 15px;
 }
