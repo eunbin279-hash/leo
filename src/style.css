@@ -1,0 +1,67 @@
+#전체박스 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#링크영역 {
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Noto Serif KR', 'Nanum Myungjo', serif;
+    font-size: 22px;
+    color: black;
+    line-height: 1.7;
+    letter-spacing: -1px;
+
+
+}
+
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.문자1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #007aff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 15px;
+    align-self: flex-end;
+    color: white;
+
+}
+
+.문자2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 15px;
+    align-self: flex-start;
+    color: black;
+
+}
+
+.날짜1 {
+    font-family: san-serif;
+    color: gray;
+    text-align: center;
+}
+
+.처음 {
+    background-color: #007aff;
+    width: 100px;
+}
